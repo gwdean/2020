@@ -1,0 +1,361 @@
+Notes on *Hacking the Hacker* (Grimes-2017)
+===========================================
+Cryptography
+------------
+- What Is Cryptography?
+- Why Can't Attackers Just Guess All the Possible Keys?
+- Symmetric Versus Asymmetric Keys
+- Popular Cryptography
+- Hashes
+- Cryptographic Uses
+- Cryptographic Attacks
+  - Math Attacks
+  - Known Ciphertext/Plaintext
+  - Side Channel Attacks
+  - Insecure Implementations
+
+Appendix (Table of Contents)
+----------------------------
+1. What Type of Hacker Are You?
+2. How Hackers Hack 
+3. Social Engineering
+4. Software Vulnerabilities
+5. Malware
+6. Cryptography
+7. Intrusion Detection/APTs
+8. Firewalls
+9. Honeypots
+10. Password Hacking
+11. Wireless Hacking
+12. Penetration Testing
+13. DDoS Attacks
+14. Secure OS
+15. Network Attacks
+16. IoT Hacking
+17. Policy and Strategy
+18. Threat Modeling
+19. Computer Security Education
+20. Privacy
+21. Matching
+22. Writing as a Career
+23. Guide for Parents with Young Hackers
+24. Hacker Code of Ethics
+
+What Type of Hacker Are You?
+----------------------------
+- Most Hackers Aren't Geniuses
+- Defenders Are Hackers Plus
+- Hackers Are Special
+- Hackers Are Persistent
+- Hacker Hats
+
+How Hackers Hack
+----------------
+- The Secret to Hacking
+  - The Hacking Methodology
+  - Hacking Is Boringly Successful
+  - Automated Malware as a Hacking Tool
+- Hacking Ethically
+
+Social Engineering
+------------------
+- Social Engineering Methods
+  - Phishing
+  - Trojan Horse Execution
+  - Over the Phone
+  - Purchase Scams
+  - In-Person
+  - Carrot or Stick
+- Social Engineering Defenses
+  - Education
+  - Be Careful of Installing Software from Third-Party Websites
+  - EV Digital Certificates
+  - Get Rid of Passwords
+  - Anti-Social Engineering Technologies
+
+Software Vulnerabilities
+------------------------
+- Number of Software Vulnerabilites
+- Why Are Software Vulnerabilities Still a Big Problem?
+- Defenses Against Software Vulnerabilities
+  - Security Development Lifecycle
+  - More Secure Programming Languages
+  - Code and Program Analysis
+  - More Secure Operating Systems
+  - Third-Party Protections and Vendor Add-Ons
+- Perfect Software Won't Cure All Ills
+
+Malware
+-------
+- Malware Types
+- Number of Malware Programs
+- Mostly Criminal in Origin
+- Defenses Against Malware
+  - Fully Patched Software
+  - Training
+  - Anti-Malware Software
+  - Application Control Programs
+  - Security Boundaries
+  - Intrusion Detection
+
+Cryptography
+------------
+- What Is Cryptography?
+- Why Can't Attackers Just Guess All the Possible Keys?
+- Symmetric Versus Asymmetric Keys
+- Popular Cryptography
+- Hashes
+- Cryptographic Uses
+- Cryptographic Attacks
+  - Math Attacks
+  - Known Ciphertext/Plaintext
+  - Side Channel Attacks
+  - Insecure Implementations
+
+Intrusion Detection/APTs
+------------------------
+- Traits of a Good Security Event Message
+- Advanced Persistent Threats (APTs)
+- Types of Intrusion Detection
+  - Behavior-Based
+  - Signature-Based
+- Intrusion Detection Tools and Services
+  - Intrusion Detection/Prevention Systems
+  - Event Log Management Systems
+  - Detecting Advanced Persistent Threats (APTs)
+
+Firewalls
+---------
+- What Is a Firewall?
+  - The Early History of Firewalls
+  - Firewall Rules
+  - Where Are Firewalls?
+  - Advanced Firewalls
+  - What Firewalls Protect Against
+
+Honeypots
+---------
+- What Is a Honeypot?
+- Interaction
+- Why Use a Honeypot?
+- Catching My Own Russian Spy
+- Honeypot Resources to Explore
+
+Password Hacking
+----------------
+- Authentication Components
+  - Passwords
+  - Authentication Databases
+  - Password Hashes
+  - Authentication Challenges
+  - Authentication Factors
+- Hacking Passwords
+  - Password Guessing
+  - Phishing
+  - Keylogging
+  - Hash Cracking
+  - Credential Reuse
+  - Hacking Password Reset Portals
+- Password Defenses
+  - Complexity and Length
+  - Frequent Changes with No Repeating
+  - Not Sharing Passwords Between Systems
+  - Account Lockout
+  - Strong Password Hashes
+  - Don't Use Passwords
+  - Credential Theft Defenses
+  - Reset Portal Defenses
+
+Wireless Hacking
+----------------
+- The Wireless World
+- Types of Wireless Hacking
+  - Attacking the Access Point
+  - Denial of Service
+  - Guessing a Wireless Channel Password
+  - Session Hijacking
+  - Stealing Information
+  - Physically Locating a User
+- Some Wireless Hacking Tools
+  - Aircrack-Ng
+  - Kismet
+  - Fern Wi-Fi Hacker
+  - Firesheep
+- Wireless Hacking Defenses
+  - Frequency Hopping
+  - Predefined Client Identification
+  - Strong Protocols
+  - Long Passwords
+  - Patching Access Points
+  - Electromagnetic Shielding
+
+Penetration Testing
+-------------------
+- My Penetration Testing Highlights
+  - Hacked Every Cable Box in the Country
+  - Simultaneously Hacked a Major Television Network and Pornography
+  - Hacked a Major Credit Card Company
+  - Created a Camera Virus
+- How to Be a Pen Tester
+  - Hacker Methodology
+  - Get Documented Permission First
+  - Get a Signed Contract
+  - Reporting
+  - Certifications
+  - Be Ethical
+  - Minimize Potential Operational Interruption
+
+DDoS Attacks
+------------
+- Types of DDoS Attacks
+  - Denial of Service
+  - Direct Attacks
+  - Reflection Attacks
+  - Amplification
+  - Every Layer in the OSI Model
+  - Escalating Attacks
+  - Upstream and Downstream Attacks
+- DDoS Tools and Providers
+  - Tools
+  - DDoS as a Service
+- DDoS Defenses
+  - Training
+  - Stress Testing
+  - Appropriate Network Configuration
+  - Engineer Out Potential Weak Points
+  - Anti-DDoS Services
+
+Secure OS
+---------
+- How to Secure an Operating System
+  - Secure-Built OS
+  - Secure Guidelines
+  - Secure Configuration Tools
+- Security Consortiums
+  - Trusted Computing Group
+  - FIDO Alliance
+
+Network Attacks
+---------------
+- Types of Network Attacks
+  - Eavesdropping
+  - Man-in-the-Middle Attacks
+  - Distributed Denial-of-Service Attacks
+- Network Attack Defenses
+  - Domain Isolation
+  - Virtual Private Networks
+  - Use Secure Protocols and Applications
+  - Network Intrusion Detection
+  - Anti-DDoS Defenses
+  - Visit Secure Web Sites and Use Secure Services
+
+IoT Hacking
+-----------
+- How Do Hackers Hack IoT?
+- IoT Defenses
+
+Policy and Strategy
+-------------------
+- Standards
+- Policies
+- Procedures
+- Frameworks
+- Regulatory Laws
+- Global Concerns
+- Systems Support
+
+Threat Modeling
+---------------
+- Why Threat Model?
+- Threat Modeling Models
+- Threat Actors
+  - Nation-States
+  - Industrial Hackers
+  - Financial Crime
+  - Hacktivists
+  - Gamers
+  - Insider Threats
+  - Ordinary, Solitary Hackers or Hacker Groups
+
+Computer Security Education
+---------------------------
+- Computer Security Training Topics
+  - End-User/Security Awareness Training
+  - General IT Security Training
+  - Incident Response
+  - OS and Application-Specific Training
+  - Technical Skills
+  - Certifications
+- Training Methods
+  - Online Training
+  - Break into My Website
+  - Schools and Training Centers
+  - Boot Camps
+  - Corporate Training
+  - Books
+
+Privacy
+-------
+- Privacy Organizations
+- Privacy-Protecting Applications
+
+Patching
+--------
+- Patching Facts
+  - Most Exploits Are Caused by Old Vulnerabilities That Patches Exist For
+  - Most Exploits Are Caused by a Few Unpatched Programs
+  - The Most Unpatched Program Isn't Always the Most Exploited Program
+  - You Need to Patch Hardware Too
+- Common Patching Problems
+  - Detecting Missing Patching Isn't Accurate
+  - You Can't Always Patch
+  - Some Percentage of Patching Always Fails
+  - Patching Will Cause Operational Issues
+  - A Patch Is a Globally Broadcasted Exploit Announcement
+
+Writing as a Career
+-------------------
+- Computer Security Writing Outlets
+  - Blogs
+  - Social Media Sites
+  - Articles
+  - Books
+  - Newsletters
+  - Whitepapers
+  - Technical Reviews
+  - Conferences
+- Professional Writing Tips
+  - The Hardest Part Is Starting
+  - Read Differently
+  - Start Out Free
+  - Be Professional
+  - Be Your Own Publicist
+  - A Picture Is Worth a Thousand Words
+
+Guide for Parents with Young Hackers
+------------------------------------
+- Signs Your Kid Is Hacking
+  - They Tell You They Hack
+  - Overly Secretive About Their Online Activities
+  - They Have Multiple Email/Social Media Accounts You Can't Access
+  - You Find Hacking Tools on the System
+  - People Complain You Are Hacking
+  - You Catch Them Switching Screens Every Time You Walk into the Room
+  - These Signs Could Be Normal
+- Not All Hacking Is Bad
+- How to Turn Around Your Malicious Hacker
+  - Move Their Computers into the Main Living Area and Monitor
+  - Give Guidance
+  - Give Legal Places to Hack
+  - Connect Them with a Good Mentor
+
+Hacker Code of Ethics
+---------------------
+- Hacker Code of Ethics
+  - Be Ethical, Transparent, and Honest
+  - Don't Break the Law
+  - Get Permission
+  - Be Confidential with Sensitive Information
+  - Do No Greater Harm
+  - Conduct Yourself Professionally
+  - Be a Light for Others

@@ -1,0 +1,569 @@
+Categories for the Working Mathematician (Mac_Lane-1998)
+========================================================
+Preface to the Second Edition
+Preface to the First Edition
+0. Introduction
+1. Categories, Fuctors, and Natural Transformations
+2. Constructions on Categories
+3. Universal and Limits
+4. Adjoints
+5. Limits
+6. Monads and Algebras
+7. Monoids
+8. Abelian Categories
+9. Special Limits
+10. Kan Extensions
+11. Symmetry and Braiding in Monoidal Categories
+12. Structures in Categories
+Appendix. Foundations
+Table of Standard Categories: Objects and Arrows
+Table of Terminology
+Bibliography
+Index
+
+Introduction (1-5)
+------------------
+Category theory starts with the observation that many properties of mathematical systems can be unified and simplified by a presentation with diagrams and arrows. (1)
+
+Table of Standard Categories: Objects and Arrows (293)
+------------------------------------------------------
+n = 41 (33 4 4)
+
+Ab         : Abelian groups
+Adj        : Small categories, adjunctions, p. 104
+Alg        : <,E>-algebras
+Bool       : Boolean algebras
+CAb        : Compact topological abelian groups
+CAT        : Categories, functors
+CG Haus    : Compactly generated Hausdorff spaces, p. 185
+Comp Bool  : Complete Boolean algebras
+Comp Haus  : Compact Hausdorff spaces, p. 125
+CRng       : Commutatative rings, homomorphisms
+Ensv       : Sets and functions, within a universe V, p. 11
+(...to be continued...)
+Table of Terminology (295)
+--------------------------
+n = 27 (6 9 5 5 2)
+
+(ar do co gr nt ni)
+(mo ep id op cp eq pl ps ua)
+(le li cl ct cf)
+(la ra ua ti mn)
+(bi ab)
+
+01. [ar] -> arrow
+02. [do] -> domain
+03. [co] -> codomain
+04. [gr] -> graph
+05. [nt] -> natural transformation
+06. [ni] -> natural isomorphism
+07. [mo] -> monic
+08. [ep] -> epi
+09. [id] -> idempotent
+10. [op] -> opposite
+11. [cp] -> coproduct
+12. [eq] -> equalizer
+13. [pl] -> pullback
+14. [ps] -> pushout
+15. [ua] -> universal arrow
+16. [le] -> limit exists
+17. [li] -> limit
+18. [cl] -> colimit
+19. [ct] -> cone to a functor
+20. [cf] -> cone from a functor
+21. [la] -> left adjoint
+22. [ra] -> right adjoint
+23. [ua] -> unit of adjunction
+24. [ti] -> triangular identities
+25. [mn] -> monad
+26. [bi] -> biproduct
+27. [ab] -> Ab-category
+
+Contents (ix-xii) 
+-----------------
+1. Categories, Functors, and Natural Transformations
+2. Constructions on Categories
+3. Universals and Limits
+4. Adjoints
+5. Limits
+6. Monads and Algebras
+7. Monoids
+8. Abelian Categories
+9. Special Limits
+10. Kan Extensions
+11. Symmetry and Braiding in Monoidal Categories
+12. Structures in Categories
+
+Terms from Contents
+-------------------
+1. Category
+2. Functor
+3. Natural Transformation
+4. Construction
+5. Universal
+6. Limit
+7. Adjoint
+8. Monad
+9. Algebra
+10. Monoid
+11. Abelian Category
+12. Special Limit
+13. Kan Extension
+14. Symmetry
+15. Braiding
+16. Monoidal Category
+17. Structure
+
+Exercises
+---------
+(015 5)(018 6)(021 9)(024 2) -> N=22
+(039 5)(041 8)(044 8)(047 6)(051 3)(052 2) -> N=32
+(059 7)(062 4)(068 7)(072 10)(074 5)(076 4) -> N=37
+(086 4)(089 12)(092 7)(095 5)(097 3)(098 5)(102 5)(104 3) -> N=44
+(... to be continued)
+
+Hacking (Erickson-2008)
+=======================
+0x100 Introduction......(001-004) [4]
+0x200 Programming.......(005-114) [110]
+0x300 Exploitation......(115-194) [80]
+0x400 Networking........(195-280) [86]
+0x500 Shellcode.........(281-318) [38]
+0x600 Countermeasures...(319-392) [74]
+0x700 Cryptology........(393-450) [58]
+0x800 Conclusion........(451-454) [4]
+
+1. Programming ........ (01-08)
+2. Exploitation ....... (09-13)
+3. Networking ......... (14-21)
+4. Shellcode .......... (22-26)
+5. Countermeasures .... (27-38)
+6. Cryptology ......... (39-46)
+7. Conclusion ......... (47-48)
+
+1. What Is Programming? 2. Pseudo-code 3. Control Structure 4. More Fundamental Programming Concepts
+5. Getting Your Hands Dirty 6. Back to Basics 7. Memory Segmentation 8. Building on Basics
+9. Generalized Exploit Techniques 10. Buffer Overflows 11. Experimenting with BASH 12. Overflows in Other Segments
+13. Format Strings 14. OSI Model 15. Sockets 16. Peeling Back the Lower Layers
+17. Network Sniffing 18. Denial of Service 19. TCP/IP Hijacking 20. Port Scanning
+21. Reach Out and Hack Someone 22. Assembly vs. C 23. The Path to Shellcode 24. Shell-Spawning Shellcode
+25. Port-Binding Shellcode 26. Connect-Back Shellcode 27. Countermeasures That Detect 28. System Daemons
+29. Tools of the Trade 30. Log Files 31. Overlooking the Obvious 32. Advanced Camoulflage
+33. The Whole Infrastructure 34. Payload Smuggling 35. Buffer Restrictions 36. Hardening Countermeasures
+37. Nonexecutable Stack 38. Randomized Stack Space 39. Information Theory 40. Algorithmic Run Time
+41. Symmetric Encryption 42. Asymmetric Encryption 43. Hybrid Cyphers 44. Password Cracking
+45. Wireless 802.11b Encryption 46. WEP Attacks 47. References 48. Sources
+
+(what-is-programming pseudo-code control-structure more-fundamental-programming-concepts)
+(getting-your-hands-dirty back-to-basics memory-segmentation building-on-basics)
+(generalized-exploit-techniques buffer-overflows experimenting-with-bash overflows-in-other-segments)
+(format-strings osi-model sockets peeling-back-the-lower-layers)
+(network-sniffing denial-of-service tcp-ip-hijacking port-scanning)
+(reach-out-and-hack-someone assembly-vs-c the-path-to-shellcode shell-spawning-shellcode)
+(port-binding-shellcode connect-back-shellcode countermeasures-that-detect system-daemons)
+(tools-of-the-trade log-files overlooking-the-obvious advanced-camoulflage)
+(the-whole-infrastructure payload-smuggling buffer-restrictions hardening-countermeasures)
+(nonexecutable-stack randomized-stack-space information-theory algorithmic-run-time)
+(symmetric-encryption asymmetric-encryptuion hybrid-cyphers password-cracking)
+(wireless-802-11b-encryption wep-attacks references sources)
+
+
+Programming
+-----------
+0x210 What Is Programming?
+0x220 Pseudo-code
+0x230 Control Structures
+0x240 More Fundamental Programming Concepts
+0x250 Getting Your Hands Dirty
+0x260 Back to Basics
+0x270 Memory Segmentation
+0x280 Building on Basics
+
+Exploitation
+------------
+0x310 Generalized Exploit Techniques
+0x320 Buffer Overflows
+0x330 Experimenting with BASH
+0x340 Overflows in Other Segments
+0x350 Format Strings
+
+Networking
+----------
+0x410 OSI Model
+0x420 Sockets
+0x430 Peeling Back the Lower Layers
+0x440 Network Sniffing
+0x450 Denial of Service
+0x460 TCP/IP Hijacking
+0x470 Port Scanning
+0x480 Reach Out and Hack Someone
+
+Shellcode
+---------
+0x510 Assembly vs. C
+0x520 The Path to Shellcode
+0x530 Shell-Spawning Shellcode
+0x540 Port-Binding Shellcode
+0x550 Connect-Back Shellcode
+
+Countermeasures
+---------------
+0x610 Countermeasures That Detect
+0x620 System Daemons
+0x630 Tools of the Trade
+0x640 Log Files
+0x650 Overlooking the Obvious
+0x660 Advanced Camoulflage
+0x670 The Whole Infrastructure
+0x680 Payload Smuggling
+0x690 Buffer Restrictions
+0x6a0 Hardening Countermeasures
+0x6b0 Nonexecutable Stack
+0x6c0 Randomized Stack Space
+
+Cryptology
+----------
+0x710 Information Theory
+0x720 Algorithmic Run Time
+0x730 Symmetric Encryption
+0x740 Asymmetric Encryption
+0x750 Hybrid Cyphers
+0x760 Password Cracking
+0x770 Wireless 802.11b Encryption
+0x780 WEP Attacks
+
+Conclusion
+----------
+0x810 References
+0x820 Sources
+
+Serious Cryptography (Aumasson-2018)
+====================================
+1. Encryption
+2. Randomness
+3. Cryptographic Security
+4. Block Ciphers
+5. Stream Ciphers
+6. Hash Functions
+7. Keyed Hashing
+8. Authenticated Encryption
+9. Hard Problems
+10. RSA
+11. Diffie-Hellman
+12. Elliptic Curves
+13. TLS
+14. Quantum and Post-Quantum
+
+
+Probability Theory. A 2 Week Course
+===================================
+Main Text: Probability Theory: Jaynes [PT]
+
+Week 1: Chapters 1 & 2. Pg 1-50.
+Week 2: Chapters 3 & 4. Pg 51-118
+
+1. Plausible Reasoning
+2. Quantitative Rules
+3. Elementary Sampling Theory
+4. Elementary Hypothesis Testing
+
+Exercises (n=15)
+================
+2.1 -> 34 
+2.2 -> 34
+2.3 -> 43
+3.1 -> 55
+3.2 -> 71
+3.3 -> 71
+3.4 -> 72
+3.5 -> 72
+3.6 -> 81
+4.1 -> 97
+4.2 -> 105
+4.3 -> 105
+4.4 -> 106
+4.5 -> 106
+4.6 -> 118
+
+Plausible Reasoning
+===================
+1. Deductive and Plausible Reasoning
+2. Analogies with Physical Theories
+3. Thinking Computer
+4. Introducing the Robot
+5. Boolean Algebra
+6. Adequate Sets of Operations
+7. The Basic Desiderata
+8. Comments
+  1. Common Language vs. Formal Logic
+  2. Nitpicking
+
+Quantitative Rules
+==================
+1. Product Rule
+2. Sum Rule
+3. Qualitative Properties
+4. Numerical Values
+5. Notation and Finite-Sets Policy
+6. Comments
+  1. 'Subjective' vs. 'objective'
+  2. Godel's theorem
+  3. Venn diagrams
+  4. The 'Kolmogorov axioms'
+
+Elementary Sampling Theory
+==========================
+1. Sampling Without Replacement
+2. Logic vs. Propensity
+3. Reasoning From Less Precise Information
+4. Expectations
+5. Other Forms and Extensions
+6. Probability As A Mathematical Tool
+7. The Binomial Distribution
+8. Sampling With Replacement
+  1. Digression: A Sermon on Reality vs. Models
+9. Correction for Correlations
+10. Simplification
+11. Comments
+  1. A Look Ahead
+
+
+Elementary Sampling Theory
+==========================
+
+Elementary Hypothesis Testing
+=============================
+
+Structure of the Text
+---------------------
+1. Principles and elementary applications (1-340)
+2. Advanced Applications (341-650)
+Appendices (651-681)
+References (683-720)
+Indices (721-727)
+
+Mathematical Theory of Communication (Shannon)
+==============================================
+0. Introduction
+1. Discrete Noiseless Systems
+2. Discrete Channel with Noise
+3. Continuous Information
+4. Continuous Channel
+5. Rate for a Continuous Source
+0. Appendices
+
+Introduction
+------------
+- Fundamental Problem of Communication (FPC)
+- FPC -> reproducing at one point either exactly or approximately a message selected at another point.
+
+Recent Contributions to the MTC (Weaver)
+========================================
+1. Introductory Note
+2. Communication Problems at Level A
+3. The Interrelationship of the Three Levels of Communication Problems
+
+Quantum Mechanics as Extended Probability Theory
+================================================
+file: qm.rkt
+(define h '(4 110 80 86 38 74 58 4))
+
+Quantum Computing Since Democritus
+==================================
+0. Preface (ix - xxviii)
+1. Atoms and the void (1)
+2. Sets (8)
+3. Godel, Turing, and friends (18)
+4. Minds and machines (29)
+5. Paleocomplexity (44)
+6. P, NP, and friends (54)
+7. Randomness (71)
+8. Crypto (93)
+9. Quantum (109)
+10. Quantum computing (132)
+11. Penrose (150)
+12. Decoherence and hidden variables (160)
+13. Proofs (186)
+14. How big are quantum states? (200)
+15. Skepticism of quantum computing (217)
+16. Learning (228)
+17. Interactive proofs, circuit lower bounds, and more (243)
+18. Fun with the Anthropic Principle (266)
+19. Free will (290)
+20. Time travel (307)
+21. Cosmology and complexity (325)
+22. Ask me anything (343)
+00. Index (363-371)
+
+Preface
+-------
+Quantum mechanics is a beautiful generalization of the laws of probability: a generalization based on the 2-norm rather than the 1-norm, and on complex numbers rather than nonnegative real numbers. (xvii)
+
+Math/Logic vs. Physics (xviii-xix)
+
+QT of Computation -> merger of QM + CCT (xix)
+
+Past is indeterminate... (xx)
+
+Dialogue between the Intellect and the Senses
+  - Intellect: By convention there is sweetness, by convention bitterness, by convention color, in reality only atoms and the void.
+  - Senses: Foolish intellect! Do you seek to overthrow us, while it is from us that you take your evidence? (xviii)
+
+Terms
+-----
+QM -> quantum mechanics
+CCT -> computational complexity theory
+
+Summary from Preface (xx-xxii)
+------------------------------
+
+Atoms and the void
+------------------
+"I would rather discover a single cause than become king of the Persians." - Democritus
+
+How did we ever come to believe in this theory that seems so uncomfortable with the fact of our own existence? (4)
+
+- Copenhagen/Bayesian/Epistemic etc.
+- Many Worlds, Bohmian Mechanics etc.
+
+We can conceive of experiments that would differentiate the first type of interpretation from the second type. (5)
+
+Philosophical Janitor vs. Philosophical Scout (6)
+
+In quantum computing, the sorts of things that we like to calculate -- capacities of quantum channels, error probabilities of quantum algorithms -- are things people would never have /thought/ to calculate if not for philosophy. 
+
+Sets
+----
+- Rules of First-Order Logic
+- Peano Axioms for the Nonnegative Integers
+- Axioms of Set Theory
+
+Rules of First-Order Logic (9)
+- Propositional tautologies
+- Modus ponens
+- Equality rules
+- Change of variables
+- Quantifier elimination
+- Quantifier addition
+- Quantifier rules
+
+Peano Axioms for the Nonnegative Integers (9)
+- Zero exists
+- Every integer has at most one predecessor
+
+Axioms of Set Theory (11)
+- Empty set
+- Extensionality
+- Pairing
+- Union
+- Existence of infinite sets
+- Power set
+- Replacement
+- Foundation
+
+The nonnegative integers are called a /model/ for the axioms. (9)
+
+In logic, the word "model" just means any collection of objects and functions of those objects that satisfies the axioms. (9)
+
+Treating proofs as mathematical objects opens the way toward metamathematics. (10)
+
+Cantor's Proof -> one of the four or five greatest proofs in all of math. (13)
+
+Continuum hypothesis/Axiom of choice (14-15)
+
+
+Godel, Turing, and friends
+--------------------------
+Minds and machines
+------------------
+Paleocomplexity
+---------------
+P, NP, and friends
+------------------
+Randomness
+----------
+Crypto
+------
+Quantum
+-------
+Quantum computing
+-----------------
+Penrose
+-------
+Decoherence and hidden variables
+--------------------------------
+Proofs
+------
+How big are quantum states?
+---------------------------
+Skepticism of quantum computing
+-------------------------------
+Learning
+--------
+Interactive proofs, circuit lower bounds, and more
+--------------------------------------------------
+Fun with the Anthropic Principle
+--------------------------------
+Free will
+---------
+Time travel
+-----------
+Cosmology and complexity
+------------------------
+Ask me anything
+---------------
+Index
+-----
+
+Abbreviated Course
+------------------
+00. Preface ............(ix-xxviii)
+02. Sets ...............(008-017)
+03. Godel, Turing ......(018-xxx)
+05. Paleocomplexity ....(xxx-xxx)
+06. P, NP, friends .....(xxx-xxx)
+07. Randomness .........(xxx-xxx)
+08. Crypto .............(093-108)
+09. Quantum ............(109-131)
+10. Quantum Computing ..(132-149)
+13. Proofs .............(186-199)
+--. Bayes' Theorem .....(266-267)
+
+Core QC 
+-------
+- Crypto
+- Quantum
+- Quantum Computing
+
+Supplementary
+-------------
+- Preface
+- Sets
+- Godel, Turing ...
+- Paleocomplexity
+- P, NP, and friends
+- Randomness
+
+
+Teaching Quantum Mechanics: The Second Way (Aaronson-2018 ch-9)
+===============================================================
+The second way to teach quantum mechanics starts directly from the "conceptual core"
+
+Conceptual Core -> a certain generalization of the laws of probability to allow minus signs (and more generally, complex numbers).
+
+Quantum Mechanics <-> a Generalized Probability Theory
+
+Sources
+=======
+Aaronson-2018
+Abelson-Sussman-1996
+Aumasson-2018
+Butterick-xxxx
+Erickson-2008
+Healy-2018
+Jaynes-2003
+Kontopoulos-1993
+Shannon-1948
+Weaver-1949
+White-1992
+White-2008 

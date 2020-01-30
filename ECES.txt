@@ -1,0 +1,86 @@
+EC-Council Certified Encryption Specialist (ECES)
+=================================================
+The EC-Council Certified Encryption Specialist (ECES) program introduces professionals and students to the field of cryptography. The participants will learn the foundations of modern symmetric and key cryptography including the details of algorithms such as Feistel Networks, DES, and AES. Other topics introduced:
+  - Overview of other algorithms such as Blowfish, Twofish, and Skipjack
+  - Hashing algorithms including MD5, MD6, SHA, Gost, RIPMD 256 and others
+  - Asymmetric cryptography including thorough descriptions of RSA, Elgamal, Elliptic Curve, and DSA
+  - Significant concepts such as diffusion, confusion, and Kerchoff's principle.
+Participants will also be provided a practical application of the following:
+  - How to set up a VPN
+  - Encrypt a drive
+  - Hands-on experience with steganography
+  - Hands-on experience in cryptographic algorithms ranging from classic ciphers like Caesar cipher to modern day algorithms such as AES and RSA.
+
+ALgorithms/Concepts/Practical
+-----------------------------
+- Feistel Networks (58-59) 
+- DES (80)
+- AES (59-65)
+- Blowfish 
+- Twofish
+- Skipjack
+- MD5
+- MD6
+- SHA
+- Gost
+- RIPMD 256
+- RSA
+- Elgamal
+- Elliptic Curve
+- DSA
+- Diffusion
+- Confusion
+- Kerchoff's Principle
+- Set up a VPN
+- Encrypt a drive
+- Hands-on experience with steganography
+- Hands-on experience in cryptographic algorithms ranging from classic ciphers like Caesar cipher to modern day algorithms such as AES and RSA.
+
+ECES Exam Blueprint
+-------------------
+1. Introduction and History of Cryptography   (8%)
+2. Symmetric Cryptography and Hashes         (44%)
+3. Number Theory and Asymmetric Cryptography (14%)
+4. Applications of Cryptography              (24%)  
+5. Cryptanalysis                             (10%)
+
+Introduction and History of Cryptography
+----------------------------------------
+1. Overview of Cryptography
+2. Understanding Mono-Alphabet Substitution Cryptographic Algorithms
+3. Understanding Multi-Alphabet Substitution Cryptographic Algorithms
+4. Understanding Homophonic Substitution Cryptographic Algorithms
+
+Symmetric Cryptography and Hashes
+---------------------------------
+5. Overview of Symmetric Cryptography
+6. Understanding Basic Binary Math in Cryptography
+7. Understanding Symmetric Block Cipher Algorithms
+8. Understanding Symmetric Algorithm Methods
+9. Overview of Symmetric Stream Ciphers
+10. Overview of Cryptographic Hash Algorithms
+
+Number Theory and Asymmetric Cryptography
+-----------------------------------------
+11. Overview of Asymmetric Cryptography
+12. Understanding Basic Number Facts
+13. Understanding Birthday Theorem
+14. Understanding Random Number Generators
+15. Overview of Asymmetric Encryption Algorithms
+
+Applications of Cryptography
+----------------------------
+16. Overview of Digital Signatures, Digital Certificates, and Digital Certificate Management
+17. Understanding Authentication Protocols
+18. Understanding Wi-Fi Encryption, SSL, and TLS
+19. Understanding VPN and Protocols Used to Create VPN
+20. Understanding File and Disk Encryption
+21. Overview of Steganography and Steganalysis
+22. Overview of Overview of National Security Agency Encryption Algorithms
+
+Cryptanalysis
+-------------
+23. Overview of Cryptanalysis
+24. Understanding Cryptanalysis Techniques
+25. Overview of Cryptanalysis Resources and Success
+26. Understanding Password Cracking
