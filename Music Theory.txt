@@ -1,0 +1,37 @@
+Notes from "Music Theory for Electronic Producers" (Allen 2018)
+===============================================================
+1. Introduction
+2. Keyboard Layout
+3. Finding C
+4. Octaves
+5. Perfect 5th
+6. Being "In Key"
+7. Major Scales and Major Keys
+8. Basic Triad
+9. Diatonic Chord Progressions
+10. Inversions
+11. The Other Intervals
+12. 7th Chords
+13. Roman Numerals
+14. Minor Keys
+15. Minor Scale Variations
+16. Circle of Fifths
+17. Accompaniment Styles
+18. Using Dissonance
+19. Texture & Density
+20. Modes
+21. Chromaticism
+22. Epilogue
+
+Midi Grid in Text Format (2 Examples)
+-------------------------------------
+5.5 "Power Chord Riff with Perfect 5ths" (51)
+5.6 "Melody with Eastern Inflections" (53)
+
+Being "In Key" (54)
+-------------------
+1. What Does it Mean to be "In Key?"
+2. The Elements of a Key
+3. The Key as a Template
+4. Half-Steps and Whole Steps in Keys
+5. The Pattern of a Key

@@ -1,0 +1,78 @@
+Common Sense
+============
+This document will be analyzing the idea of common sense, with the purpose of applying common sense more productively in my life. Some sources I've been reading:
+
+- Aristotle
+- Thomas Aquinas
+- George Berkeley
+- Thomas Reid
+- Phillip Wicksteed
+- Frank Knight
+- Bernard Lonergan
+- Edwin T. Jaynes
+- William M. Briggs
+
+Knight
+------
+The first document I will be looking at is Frank Knight's "Risk, Uncertainty and Profit". Not sure yet if Knight addresses the issue of common sense directly, but this work directed me to that of Wicksteed on common sense.
+
+"The general method of taking the principle of choice as the starting-point of economic reasoning and treating "diminishing utility" in a comparative sense has been used with especial clearness and force by Wicksteed (Common Sense of Political Economy) ..."
+
+This quote is from a section entitled "Theory of Choice and Exchange", which we will look at now.
+
+Theory of Choice and Exchange (51-93)
+-------------------------------------
+1. Wants, and the economic order as a mechanism for organizing want-satisfying activity.
+1. Conflict of wants
+1. Resources, and their use to satisfy a plurality of wants
+1. Utility and Diminishing Utility
+1. Simple choices; the boy and the berries; Crusoe and the Crusoe economy; the production and exchange of goods under simplified social conditions
+1. The problem that of combining alternatives
+1. Pleasure and pain relative
+1. Cost is a sacrificed alternative
+1. The true significance of resources and resource costs
+1. Formulation of the relatons in functions, curves, and equilibria
+
+The present chapter and the two next following will be taken up with the attempt to define and analyze perfect competition. (51)
+
+[Economic analysis] assumes that men's acts are ruled by conscious motives; that, as it is more ordinarily expressed, they are directed toward the "satisfaction of wants." (52)
+
+The conclusions of economic theory must in general be admitted subject to the qualification, in so far as men's economic activities are rational or planned. (52)
+
+Fundamental Question: How far is human behavior inherently subject to scientific treatment? (52)
+
+Knight considers himself an "irrationalist". (52)
+
+What men want is not so much to get things that they want as it is to have interesting experiences. (53-54)
+
+Differs very little from Marshall's /Principles/. (51)
+
+The quantities of economics are properly rates. (59)
+
+Utility -> power over conduct. (61)
+
+Diminishing Utility (62)
+
+Disutility (63)
+
+Law of Choice (64)
+
+Fundamental Law of Conduct (65)
+
+UE Curve (68)
+
+Net Utility (69)
+
+Doctrine of the Surplus (71n)
+
+Psychology of Valuation (72)
+
+Pain Cost/Opportunity Cost (73)
+
+Assumptions of Imaginary Society (76-80)
+
+Supply/Demand (84)
+
+Normal Price (88)
+
+Consumption/Production (91)
