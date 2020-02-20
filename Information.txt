@@ -21,9 +21,47 @@ Table of Terminology
 Bibliography
 Index
 
+Preface to First Edition
+------------------------
+Category theory provides a convenient conceptual language:
+  - Category
+  - Functor
+  - Natural Transformation
+  - Contravariance
+  - Functor Category
+
+Adjoint Pair of Functors ("fundamental idea")
+  - Universal Construction
+  - Direct Limit
+  - Inverse Limit
+  - Pairs of Functors with a Natural Isomorphism between Corresponding Sets of Arrows
+
+"Adjoint functors arise everywhere."
+
+Monoid -> a set with a binary operation of multiplication that is associative and that has a unit
+
+A category can be considered a sort of generalized monoid.
+
+Categories with a monoidal structure (given by a tensor product) lead inter alia to study of more convenient categories of topological spaces.
+
+Learn to live without elements;
+Use arrows instead.
+
+All concepts of category theory are Kan extensions.
+
+The (homo)-morphisms of an algebraic system can also be described by diagrams.
+
 Introduction (1-5)
 ------------------
-Category theory starts with the observation that many properties of mathematical systems can be unified and simplified by a presentation with diagrams and arrows. (1)
+Category theory starts with the observation that many properties of mathematical systems can be unified and simplified by a presentation with diagrams and arrows. 
+
+Many properties of mathematical constructions may be represented by universal properties of diagrams.
+
+Adjointness is another expression for these universal properties.
+
+The construction "cartesian product" is called a "functor" because it applies suitably to sets /and/ to the functions between them.
+
+The notion of a monoid (a semigroup with identity) plays a central role in category theory.
 
 Table of Standard Categories: Objects and Arrows (293)
 ------------------------------------------------------
