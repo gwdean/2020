@@ -1,0 +1,24 @@
+Some notes on Quantum Cryptography
+==================================
+
+Cryptography Apocalypse (Grimes-2020)
+-------------------------------------
+1. Quantum Computing Primer
+2. Preparing for the Quantum Break
+
+Quantum Computing Primer
+------------------------
+1. Introduction to Quantum Mechanics
+2. Introduction to Quantum Computing
+3. How Can Quantum Computing Break Today's Cryptography?
+4. When Will the Quantum Crypto Break Happen?
+5. What Will a Post-Quantum World Look Like?
+
+Preparing for the Quantum Break
+-------------------------------
+6. Quantum-Resistant Cryptography
+7. Quantum Cryptography
+8. Quantum Networking
+9. Preparing Now
+
+Appendix: Additional Quantum Resources
