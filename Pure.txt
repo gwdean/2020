@@ -1,7 +1,7 @@
 Pure Sociology (Gregory W. Dean 2020)
 =====================================
-Rules of the Sociological Method
---------------------------------
+Rules of the Sociological Method (Durkheim-1895)
+------------------------------------------------
 1. What Is a Social Fact?
 2. Observation of Social Facts
 3. Distinction of the Normal from the Pathological
@@ -50,10 +50,12 @@ Theoretical Strategy -> assumes that *social life* is a subject matter in its ow
 
 Introduction (1-10)
 -------------------
-1. Behavior is the variable aspect of reality.
-1. Everything behaves, living or not, whether molecules, organisms, planets, or personalities.
-1. This applies to social life as well, to families, organizations, cities and so on ...
-(... continue ...)
+- Behavior is the variable aspect of reality.
+- Everything behaves, living or not, whether molecules, organisms, planets, or personalities.
+- This applies to social life as well, to families, organizations, cities, to friendship, conversation, government, revolution.
+- Social life behaves.
+
+Social life has several variable aspects.
 
 1. Stratification -> uneven distribution of conditions of existence (vertical aspect of social life)
 2. Morphology     -> distribution of people in relation to each other (horizontal aspect of social life)
@@ -67,7 +69,13 @@ Culture        -> Symbolic
 Organization   -> Corporate
 Social Control -> Normative
 
-Aspects the social environment -> Vertical, Horizontal, Symbolic, Corporate, Normative
+Law is governmental social control.
+
+Many societies have been anarchic, and much social life in every society is anarchic.
+
+Law is a quantitative variable - it increases and decreases.
+
+Generally speaking, the quantity of law is known by the number and scope of prohibitions, obligations, and other standards to which people are subject, and by the rate of legislation, litigation, and adjudication.
 
 Introduction
 ------------
@@ -271,5 +279,3 @@ Articles
 1. "Pure sociology and the geometry of discovery" (2002)
 1. "The geometry of terrorism" (2004) 
 1. "Legal relativity" (2007)
-
-For Frame: Healy-2018
