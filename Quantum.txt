@@ -1,5 +1,18 @@
-Some notes on Quantum Cryptography
-==================================
+Some notes on Quantum Mechnanics, Cryptography and Computing
+============================================================
+QBism (von Baeyer-2016)
+-----------------------
+1. Quantum Mechanics
+2. Probability
+3. Quantum Bayesianism
+4. QBist Worldview
+
+*Quantum Probabilities* are numerical measures of personal degrees of belief. (Principal Thesis of QBism)
+
+*QBism* is based on personalistic/subjective Bayesianism.
+
+Probability, in this view, is not out there in the real world, but places it instead in the mind of a person. (agent)
+
 
 Cryptography Apocalypse (Grimes-2020)
 -------------------------------------
