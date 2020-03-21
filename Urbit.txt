@@ -1,5 +1,28 @@
-Commentary on Urbit (12/24 -> )
-===============================
+Notes on Urbit (12/24 -> )
+==========================
+From Erik Newton (~patnes-rigtyn)
+~ 2020.2.12
+https://urbit.org/blog/urbit-for-normies/
+
+What is Urbit?
+What it looks like
+What its for
+Key elements
+  1. A peer-to-peer network
+  2. Your own server
+  3. Permanent, personal ownership of your digital identity and all your data
+  4. An Incentive for Good Behavior
+  5. Tools anyone can learn and use
+  6. Lessons from the last half-century
+  7. Private, human-sized, and efficient
+How it compares
+Urbit vs. Reddit
+Urbit vs. Facebook/Twitter, etc.
+Urbit vs. Nest
+Urbit vs. Google Docs
+Urbit for your protected health information
+Why we need Urbit
+
 Patchwork: A Positive Vision (11/13/2008)
 -----------------------------------------
 1. A Positive Vision
