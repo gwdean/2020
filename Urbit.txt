@@ -1,6 +1,21 @@
 Notes on Urbit (12/24 -> )
 ==========================
-From Erik Newton (~patnes-rigtyn)
+Precepts
+--------
+Philip Monk (~wicdev-wisryt)
+~2020.3.18
+https://urbit.org/blog/precepts/
+
+A. General Design
+B. Specific Design
+C. Attitude
+D. Theory
+E. Text Style
+F. Real Software
+
+Urbit for Normies
+-----------------
+Erik Newton (~patnes-rigtyn)
 ~ 2020.2.12
 https://urbit.org/blog/urbit-for-normies/
 
