@@ -1,5 +1,42 @@
+Notes from "Counterpoint" (Kauder-1960)
+---------------------------------------
+1. Theoretical Foundations
+2. The Practice of Counterpoint
+
+Theoretical Foundations
+-----------------------
+1. Basic Tonal Relations -- The Scale
+2. Melody
+3. Harmony
+
+The Practice of Counterpoint
+----------------------------
+1. First Species: Note Against Note
+2. Second Species: Two Notes Against One
+3. Three Notes Against One
+4. Third Species: Four Notes Against One
+5. Fourth Species: Syncopes
+6. Fifth Species: Notes of Various Values
+7. Mixed Note-Values in Both Parts-
+8. Vocal Two Part Settings
+9. Double Counterpoint at the Octave
+10. Imitation
+11. Note Against Note
+12. Second and Third Species Combined
+13. Syncopated Counterpoint
+14. Mixed Note-Values
+15. Mixed Note-Values in All Three Voices-
+16. Vocal Three-Part Settings
+17. Imitation
+18. Homophonic Four-Part Setting
+19. Polyrhythmic Four-Part Setting in Double Counterpoint
+20. Double Counterpoint at the Tenth
+21. Double Counterpoint at the Twelfth
+22. The Pentatonic Scale
+23. The Double Scale
+
 Notes from "Music Theory for Electronic Producers" (Allen 2018)
-===============================================================
+---------------------------------------------------------------
 1. Introduction
 2. Keyboard Layout
 3. Finding C
