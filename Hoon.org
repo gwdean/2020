@@ -1,0 +1,257 @@
+* Hoon Code from the Urbit White Paper (2016)
+** Simplified ++span (21)
+#+BEGIN_SRC
+++ span
+  $@  $? $noun
+         $void
+  ==  $% {$atom p/term q/(unit atom)}
+         {$cell p/span q/span}
+         {$core p/span q/(map term span)}
+         {$face p/term q/span}
+         {$fork p/(set span)}
+         {$hold p/span q/twig}
+      ==
+#+END_SRC
+** Phonetic names for symbols (26) 
+#+BEGIN_SRC
+ace [1 space]   gal <                pal (
+bar |           gap [>1 space, nl]   par )
+bas \           gar >                sel [
+buc $           hax #                sem ;
+cab _           hep -                ser ]
+cen %           kel {                sig ~
+col :           ker }                soq '
+com ,           ket ^                tar *
+doq "           lus +                tec '
+dot .           pam &                tis =
+fas /           pat @                wut ?
+zap !
+#+END_SRC
+** FizzBuzz (28)
+#+BEGIN_SRC
+=+ count 1
+|- ^- (list tape)
+?: =(100 count)
+  ~
+:_ $(count (add 1 count))
+?: =(0 (mod count 15))
+  "FizzBuzz"
+?: =(0 (mod count 5))
+  "Fizz"
+?: =(0 (mod count 3))
+  "Buzz"
+"{<count>}"
+#+END_SRC
+** Full ++span (29)
+#+BEGIN_SRC
+++ span $0 $? $noun
+              $void
+        == $% {$atom p/term q/(unit atom)}
+              {$cell p/span q/span}
+              {$core p/span q/coil}
+              {$face p/term q/span}
+              {$fork p/(set span)}
+              {$hold p/span q/twig}
+        ==
+::
+++ coil $:  p/?($gold $iron $lead $zinc)
+            q/span
+            r/{p/?($~ ^) q/(map term foot)}
+        ==
+++ foot $% {$dry p/twig}
+           {$wet p/twig}
+        ==
+#+END_SRC
+** The Arvo Interface (31) 
+#+BEGIN_SRC
+++ card {@tas *}
+++ path (list @tas)
+++ wire path
+++ ovum {p/wire q/card}
+++ work ovum
+++ step {p/@da q/ovum}
+++ mark @tas
+++ arvo
+  |%
+  ++ poke
+    $- nex/step
+    {act/(list work) _arvo}
+  ::
+  ++ peek
+    $- pax/path
+    val/(unit (unit {p/mark q/*}))
+  --
+#+END_SRC
+** ++move (33)
+#+BEGIN_SRC
+++ duct (list wire)
+++ gang (unit (set ship))
+++ mask {p/gang q/gang}
+++ leap
+  $% {$give p/duct q/card}
+     {$pass p/duct q/wire r/card}
+  --
+++ move {p/mask q/leap}
+#+END_SRC
+** ++rub (44)
+#+BEGIN_SRC
+++ rub
+  ~/ %rub
+  |= {a/@ b/@}
+  ^_ {p/@ q/@}
+  =+ ^= c
+     =+ c=0
+     |- ^- @
+     ?. =(0 (cut 0 [(add a c) 1] b))
+       c
+     $(c +(c))
+  ?: =(0 c)
+    [1 0]
+  =. a (add a +(c))
+  =+ ^= e
+     %+ add
+       (bex (dec c))
+     (cut 0 [a (dec c)] b)
+  :- (add (add c c) e)
+  (cut 0 [(add a (dec c)) e] b)]
+#+END_SRC
+** ++cue (45)
+#+BEGIN_SRC
+++ cue
+  ~/ %cue
+  |= b/@
+  ^_ *
+  =+ a=0
+  =| m/(map @ *)
+  =< q
+  |- ^_ {p/@ q/* r/(map @ *)}
+  ?: =(0 (cut 0 [a 1] b))
+    =+ e=(rub +(a) b)
+    [+(p.e) q.e (~(put by m) a q.e)]
+  =+ d (add a 2)
+  ?: =(1 (cut 0 [+(a) 1] b))
+    =+ e=(rub d b)
+    [(add 2 p.e) (~(got by m) q.e) m]
+  =+ u=$(a d)
+  =+ v=$(a (add p.u + (a)), m r.u)
+  =+ w=[q.u q.v]
+  :+ (add 2 (add p.u p.v))
+    w
+  (~(put by r.v) a w)
+#+END_SRC
+** ++cake (47)
+#+BEGIN_SRC
+++ cake {p/sock q/skin r/@}
+++ skin ?(%none %open %fast %full)
+++ skit ?(%0 %1 %2 %3)
+++ sock {p/@p q/@p}
+#+END_SRC
+** ++bite (47) -> HAS ERROR. CHECK PARENS
+#+BEGIN_SRC
+++ bite
+  |= pac/@
+  ^_ cake
+  =+ [mag=(end 5 1 pac) bod=(rsh 5 1 pac)]
+  =+ :* vez=(end 0 3 mag)
+        chk=(cut 0 [3 20] mag)
+        wix=(bex +((cut 0 [23 2] mag)))
+        vix=(bex +((cut 0 [25 2] mag)))
+        tay=(cut 0 [27 2] mag)
+     ==
+  ?> =(7 vez)
+  ?> =(chk (end 0 20 (mug bod)))
+  :+ [(end 3 wix bod) (cut 3 [wix vix] bod)]
+    (kins tay)
+  (rsh 3 (add wix vix) bod)
+::
+++ kins
+  |= tay/@
+  (snag tay '(list skin)'[%none %open %fast %fall ~]))
+#+END_SRC
+
+** ++meal (49)
+#+BEGIN_SRC
+++ bone @ud :: connection number
+++ hork (unit (pair term tang)) :: error report
+++ nose (pair bone tick) :: message identity
+++ tick @ud :: message number
+++ flap @uv :: 128-bit packet hash
+++ lane :: packet address
+  $% {$if p/@ud q/@if} :: udp4: port and IPv4
+     {$is p/@ud q/@is} :: udp6: port and IPv6
+  ==
+++ mile :: compound message
+  $: p/nose :: message identity
+     q/skit :: skin of whole
+     r/@ud  :: number of fragments
+  ==
+++ frag :: fragment detail
+  $: p/@ud :: fragment number
+     q/@   :: fragment data
+  ==
+++ bark :: acknowledgment
+  $: p/bone         :: connection number
+     q/flap         :: packet hash
+     r/(unit hork)  :: success/error
+     s/@dr          :: compute time
+  ==
+++ meal
+  $% {$back p/bark}              :: acknowledgment
+     {$bond p/nose q/path r/*}   :: message
+     {$part p/mile q/frag}       :: fragment
+     {$fore p/(unit lane) q/@}   :: forwarded packet
+  ==
+#+END_SRC
+** Sieve of Eratosthenes in keyword syntax (54)
+#+BEGIN_SRC
+:gate   thru/atom
+:cast   (list atom)
+:var    field/(set atom) (silt (gulf 2 thru))
+:rap    abet:main
+:core
+++ abet
+  (sort (~(tap in field) ~) lth)
+::
+++ main
+  :var    factor/atom 2
+  :loop   :like ..main
+  :if     (gth (mul factor factor) thru)
+    ..main
+  :moar(factor +(factor), ..main (reap factor))
+::
+++ reap
+  :gate   factor/atom
+  :var    count/atom (mul 2 factor)
+  :loop   :like ..reap
+  :if     (gth count thru)
+    ..reap
+  :moar
+    count (add count factor)
+    field (~(del in field) count)
+  ==
+--
+#+END_SRC
+** Sieve of Eratosthenes in rune syntax (55)
+#+BEGIN_SRC
+|=   top/@
+^-   (list @)
+=+   fed=(silt (gulf 2 top))
+=<   abet:main
+|%
+++   abet  (sort (~(tap in fed)) lth)
+++   main
+  =+   fac=2
+  |-   ^+  ..main
+  ?:   (gth (mul fac fac) top)
+    ..main
+  $(fac +(fac), ..main (reap fac))
+::
+++   reap
+  |=  fac/atom
+  =+  cot=(mul 2 fac)
+  |-  ^+  ..reap
+  ?:  (gth cot top)
+    ..reap
+  $(cot (add cot fac), fed (~(del in fed) cot))
+--
+#+END_SRC
