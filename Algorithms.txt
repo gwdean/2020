@@ -1,0 +1,74 @@
+Notes on *Fundamental Algorithms* (Knuth, 1997)
+
+Art of Computer Programming
+---------------------------
+1. Fundamental Algorithms
+  1. Basic Concepts
+  2. Information Structures
+2. Seminumerical Algorithms
+  1. Random Numbers
+  2. Arithmetic
+3. Sorting and Searching
+  1. Sorting
+  2. Searching
+4. Combinatorial Algorithms
+  1. Combinatorial Searching
+  2. Recursion
+5. Syntactical Algorithms
+  1. Lexical Scanning
+  2. Parsing
+
+Fundamental Algorithms
+----------------------
+1. Basic Concepts
+2. Information Structures
+
+Basic Concepts
+--------------
+1. Algorithms
+2. Mathematical Preliminaries
+3. MIX
+4. Some Fundamental Programming Techniques
+
+Information Structures
+----------------------
+1. Introduction
+2. Linear Lists
+3. Trees
+4. Multilinked Structures
+5. Dynamic Storage Allocation
+6. History and Bibliography
+
+Mathematical Preliminaries
+--------------------------
+1. Mathematical Induction
+2. Numbers, Powers, and Logarithms
+3. Sums and Products
+4. Integer Functions and Elementary Number Theory
+5. Permutations and Factorials
+6. Binomial Coefficients
+7. Harmonic Numbers
+8. Fibonacci Numbers
+9. Generating Functions
+10. Analysis of an Algorithm
+11. Asymptotic Representations
+  1. The O-Notation
+  2. Euler's summation formula
+  3. Some asymptotic calculations
+
+MIX
+---
+1. Description of MIX
+2. The MIX Assembly Language
+3. Applications to Permutations
+
+Some Fundamental Programming Techniques
+---------------------------------------
+1. Subroutines
+2. Coroutines
+3. Interpretive Routines
+  1. A MIX simulator
+  2. Trace routines
+4. Input and Output
+5. History and Bibliography
+
